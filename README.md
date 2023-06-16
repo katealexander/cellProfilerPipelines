@@ -9,6 +9,6 @@ In most cellProfiler analyses, I use the following strategy:
 4. For large datasets, I start by generating the pipeline on some sample images in the cellProfiler GUI. Then I will apply the pipeline to the larger dataset and run it in Terminal. Running cellProfiler in Terminal has certain Python and Java version requirements. I've run these using Python 3.9 and openjdk 19.0.1.
 
 # Analyses
-- [knockdownQuantification]()
+- [knockdownQuantification](https://github.com/katealexander/cellProfilerPipelines/tree/main/knockdownQuantification) describes analysis of nuclear intensities in 20x imaging data to assess single cell knockdown efficiency of ALYREF, a nuclear protein.   
 - [specklePhenotypes60x]()
 - [specklePhenotypes20xWithSurvivalAnalysis]()

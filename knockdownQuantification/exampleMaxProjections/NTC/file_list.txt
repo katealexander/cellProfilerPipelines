@@ -1,0 +1,6 @@
+/Users/kaalexa/Documents/cellProfilerPipelines/knockdownQuantification/exampleMaxProjections/NTC/A647max_0.tiff
+/Users/kaalexa/Documents/cellProfilerPipelines/knockdownQuantification/exampleMaxProjections/NTC/A647max_1.tiff
+/Users/kaalexa/Documents/cellProfilerPipelines/knockdownQuantification/exampleMaxProjections/NTC/DAPImax_0.tiff
+/Users/kaalexa/Documents/cellProfilerPipelines/knockdownQuantification/exampleMaxProjections/NTC/DAPImax_1.tiff
+/Users/kaalexa/Documents/cellProfilerPipelines/knockdownQuantification/exampleMaxProjections/NTC/YFPmax_0.tiff
+/Users/kaalexa/Documents/cellProfilerPipelines/knockdownQuantification/exampleMaxProjections/NTC/YFPmax_1.tiff

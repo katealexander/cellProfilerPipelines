@@ -2,7 +2,7 @@ CellProfiler Pipeline: http://www.cellprofiler.org
 Version:5
 DateRevision:424
 GitHash:
-ModuleCount:18
+ModuleCount:12
 HasImagePlaneDetails:False
 
 Images:[module_num:1|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:['To begin creating your project, use the Images module to compile a list of files and/or folders that you want to analyze. You can also specify a set of rules to include only the desired files in your selected folders.']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
@@ -65,118 +65,7 @@ Groups:[module_num:4|svn_version:'Unknown'|variable_revision_number:2|show_windo
     grouping metadata count:1
     Metadata category:Series
 
-CorrectIlluminationCalculate:[module_num:5|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:['Perform illumination correction using the Regular method and polynomial fitting to create a illumination correction function for the first image. ']|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
-    Select the input image:A647
-    Name the output image:A647_correct
-    Select how the illumination function is calculated:Regular
-    Dilate objects in the final averaged image?:No
-    Dilation radius:1
-    Block size:60
-    Rescale the illumination function?:Yes
-    Calculate function for each image individually, or based on all images?:Each
-    Smoothing method:Fit Polynomial
-    Method to calculate smoothing filter size:Automatic
-    Approximate object diameter:10
-    Smoothing filter size:10
-    Retain the averaged image?:No
-    Name the averaged image:IllumBlueAvg
-    Retain the dilated image?:No
-    Name the dilated image:IllumBlueDilated
-    Automatically calculate spline parameters?:Yes
-    Background mode:auto
-    Number of spline points:5
-    Background threshold:2.0
-    Image resampling factor:2.0
-    Maximum number of iterations:40
-    Residual value for convergence:0.001
-
-CorrectIlluminationCalculate:[module_num:6|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:['Perform illumination correction using the Regular method and polynomial fitting to create a illumination correction function for the second image. ']|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
-    Select the input image:YFP
-    Name the output image:YFP_correct
-    Select how the illumination function is calculated:Regular
-    Dilate objects in the final averaged image?:No
-    Dilation radius:1
-    Block size:60
-    Rescale the illumination function?:Yes
-    Calculate function for each image individually, or based on all images?:Each
-    Smoothing method:Fit Polynomial
-    Method to calculate smoothing filter size:Automatic
-    Approximate object diameter:10
-    Smoothing filter size:10
-    Retain the averaged image?:No
-    Name the averaged image:IllumBlueAvg
-    Retain the dilated image?:No
-    Name the dilated image:IllumBlueDilated
-    Automatically calculate spline parameters?:Yes
-    Background mode:auto
-    Number of spline points:5
-    Background threshold:2.0
-    Image resampling factor:2.0
-    Maximum number of iterations:40
-    Residual value for convergence:0.001
-
-CorrectIlluminationCalculate:[module_num:7|svn_version:'Unknown'|variable_revision_number:2|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
-    Select the input image:DAPI
-    Name the output image:DAPI_correct
-    Select how the illumination function is calculated:Regular
-    Dilate objects in the final averaged image?:No
-    Dilation radius:1
-    Block size:60
-    Rescale the illumination function?:Yes
-    Calculate function for each image individually, or based on all images?:Each
-    Smoothing method:Fit Polynomial
-    Method to calculate smoothing filter size:Automatic
-    Approximate object diameter:10
-    Smoothing filter size:10
-    Retain the averaged image?:No
-    Name the averaged image:IllumBlueAvg
-    Retain the dilated image?:No
-    Name the dilated image:IllumBlueDilated
-    Automatically calculate spline parameters?:Yes
-    Background mode:auto
-    Number of spline points:5
-    Background threshold:2.0
-    Image resampling factor:2.0
-    Maximum number of iterations:40
-    Residual value for convergence:0.001
-
-CorrectIlluminationApply:[module_num:8|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:['Apply the illumination function to the original images and examine the result.']|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
-    Select the input image:A647
-    Name the output image:CorrectedA647
-    Select the illumination function:A647_correct
-    Select how the illumination function is applied:Divide
-    Select the input image:A647
-    Name the output image:CorrectedA647
-    Select the illumination function:A647_correct
-    Select how the illumination function is applied:Divide
-    Set output image values less than 0 equal to 0?:Yes
-    Set output image values greater than 1 equal to 1?:Yes
-
-CorrectIlluminationApply:[module_num:9|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
-    Select the input image:YFP
-    Name the output image:CorrectedYPF
-    Select the illumination function:YFP_correct
-    Select how the illumination function is applied:Divide
-    Select the input image:A647
-    Name the output image:CorrectedA647
-    Select the illumination function:A647_correct
-    Select how the illumination function is applied:Divide
-    Set output image values less than 0 equal to 0?:Yes
-    Set output image values greater than 1 equal to 1?:Yes
-
-CorrectIlluminationApply:[module_num:10|svn_version:'Unknown'|variable_revision_number:5|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:False|wants_pause:False]
-    Select the input image:DAPI
-    Name the output image:CorrectedDAPI
-    Select the illumination function:DAPI_correct
-    Select how the illumination function is applied:Divide
-    Select the input image:A647
-    Name the output image:CorrectedA647
-    Select the illumination function:A647_correct
-    Select how the illumination function is applied:Divide
-    Set output image values less than 0 equal to 0?:Yes
-    Set output image values greater than 1 equal to 1?:Yes
-
-IdentifyPrimaryObjects:[module_num:11|svn_version:'Unknown'|variable_revision_number:15|show_window:True|notes:['this is for our 60x image, the pixel range of nuclei is roughly 80~300', 'and threshhold 0.5 to isolate nuclei.', 'will need to change if using other resolution.', '', 'Similarly, correlation measurements for individual objects can also be obtained. However, to determine colocalization on per-object basis, the objects within the image must be identified.  We first segment the image features into objects, then make comparisons between the individual objects in the channels.', '', 'The input image is selected as Stain1, with the output objects named Objects1. The typical diameter is set as [3,15] for the min/max size we expect the objects to be. We chose to discard small and large objects, which tend to be spurious, and discard those objects at the border because we will be making area-based measurements.', '', 'The chosen thresholding method can greatly affect segmentation.  Here, you want to select a method that will accurately identify the protein of interest as foreground.  Depending on the background level and properties of the stain, you may need to try several different methods and corresponding settings to obtain good segmentation.  Please see the help for IdentifyPrimaryObjects for more information on the thresholding methods available.', '', 'Settings to distinguish clumped objects are of importance for per-object measures of co-localization.  For example, if you wish to measure co-localization only in the nuclei or cytoplasm, each sub cellular compartment must be properly segmented to provide an accurate measurement.  You may need to adjust various settings to get good segmentation of clumpy nuclei. ']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+IdentifyPrimaryObjects:[module_num:5|svn_version:'Unknown'|variable_revision_number:15|show_window:True|notes:['this is for our 60x image, the pixel range of nuclei is roughly 80~300', 'and threshhold 0.5 to isolate nuclei.', 'will need to change if using other resolution.', '', 'Similarly, correlation measurements for individual objects can also be obtained. However, to determine colocalization on per-object basis, the objects within the image must be identified.  We first segment the image features into objects, then make comparisons between the individual objects in the channels.', '', 'The input image is selected as Stain1, with the output objects named Objects1. The typical diameter is set as [3,15] for the min/max size we expect the objects to be. We chose to discard small and large objects, which tend to be spurious, and discard those objects at the border because we will be making area-based measurements.', '', 'The chosen thresholding method can greatly affect segmentation.  Here, you want to select a method that will accurately identify the protein of interest as foreground.  Depending on the background level and properties of the stain, you may need to try several different methods and corresponding settings to obtain good segmentation.  Please see the help for IdentifyPrimaryObjects for more information on the thresholding methods available.', '', 'Settings to distinguish clumped objects are of importance for per-object measures of co-localization.  For example, if you wish to measure co-localization only in the nuclei or cytoplasm, each sub cellular compartment must be properly segmented to provide an accurate measurement.  You may need to adjust various settings to get good segmentation of clumpy nuclei. ']|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
     Select the input image:DAPI
     Name the primary objects to be identified:nuclei
     Typical diameter of objects, in pixel units (Min,Max):30,90
@@ -212,11 +101,11 @@ IdentifyPrimaryObjects:[module_num:11|svn_version:'Unknown'|variable_revision_nu
     # of deviations:2.0
     Thresholding method:Otsu
 
-MeasureObjectIntensity:[module_num:12|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+MeasureObjectIntensity:[module_num:6|svn_version:'Unknown'|variable_revision_number:4|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
     Select images to measure:A647, DAPI, YFP
     Select objects to measure:nuclei
 
-MeasureObjectIntensityDistribution:[module_num:13|svn_version:'Unknown'|variable_revision_number:6|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+MeasureObjectIntensityDistribution:[module_num:7|svn_version:'Unknown'|variable_revision_number:6|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
     Select images to measure:A647, DAPI, YFP
     Hidden:1
     Hidden:1
@@ -230,7 +119,7 @@ MeasureObjectIntensityDistribution:[module_num:13|svn_version:'Unknown'|variable
     Number of bins:4
     Maximum radius:100
 
-MeasureTexture:[module_num:14|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+MeasureTexture:[module_num:8|svn_version:'Unknown'|variable_revision_number:7|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
     Select images to measure:A647, DAPI, YFP
     Select objects to measure:nuclei
     Enter how many gray levels to measure the texture at:256
@@ -238,12 +127,12 @@ MeasureTexture:[module_num:14|svn_version:'Unknown'|variable_revision_number:7|s
     Measure whole images or objects?:Objects
     Texture scale to measure:3
 
-MeasureObjectSizeShape:[module_num:15|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+MeasureObjectSizeShape:[module_num:9|svn_version:'Unknown'|variable_revision_number:3|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
     Select object sets to measure:nuclei
     Calculate the Zernike features?:Yes
     Calculate the advanced features?:No
 
-ExportToSpreadsheet:[module_num:16|svn_version:'Unknown'|variable_revision_number:13|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+ExportToSpreadsheet:[module_num:10|svn_version:'Unknown'|variable_revision_number:13|show_window:False|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
     Select the column delimiter:Tab
     Add image metadata columns to your object data file?:No
     Add image file and folder names to your object data file?:No
@@ -267,7 +156,7 @@ ExportToSpreadsheet:[module_num:16|svn_version:'Unknown'|variable_revision_numbe
     File name:DATA.csv
     Use the object name for the file name?:Yes
 
-OverlayOutlines:[module_num:17|svn_version:'Unknown'|variable_revision_number:4|show_window:True|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+OverlayOutlines:[module_num:11|svn_version:'Unknown'|variable_revision_number:4|show_window:True|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
     Display outlines on a blank image?:No
     Select image on which to display outlines:DAPI
     Name the output image:nucleiOutlines
@@ -277,7 +166,7 @@ OverlayOutlines:[module_num:17|svn_version:'Unknown'|variable_revision_number:4|
     Select outline color:Red
     Select objects to display:nuclei
 
-SaveImages:[module_num:18|svn_version:'Unknown'|variable_revision_number:16|show_window:True|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
+SaveImages:[module_num:12|svn_version:'Unknown'|variable_revision_number:16|show_window:True|notes:[]|batch_state:array([], dtype=uint8)|enabled:True|wants_pause:False]
     Select the type of image to save:Image
     Select the image to save:nucleiOutlines
     Select method for constructing file names:From image filename

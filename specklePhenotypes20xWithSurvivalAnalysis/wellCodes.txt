@@ -1,0 +1,181 @@
+Position	No.	Age	Sex	Organ/Anatomic Site	Pathology diagnosis	TNM	Grade	Stage	Type	survival status	visit date	survival months	imageStartNumber
+A1	1	42		kidney	clear cell carcinoma	T2aN0M0	G1-G2	_	Malignant	survival	2012.9		1467
+A2	2	42		kidney	NAT				NAT				1476
+A3	3	43		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2012.9		1485
+A4	4	43		kidney	NAT				NAT				1494
+A5	5	76		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	survival	2012.9		1503
+A6	6	76		kidney	NAT				NAT				1512
+A7	7	48		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	deceased	8/22/2009	36	1521
+A8	8	48		kidney	NAT				NAT				1530
+A9	9	49		kidney	clear cell carcinoma	T2aN0M0	G1	_	Malignant	survival	2012.9		1539
+A10	10	49		kidney	NAT				NAT				1548
+A11	11	66		kidney	clear cell carcinoma	T2aN0M0	G3	_	Malignant	deceased	4/28/2007	6	1557
+A12	12	66		kidney	NAT				NAT				1566
+A13	13	29		kidney	clear cell carcinoma	T1aN0M0	G2	_	Malignant	survival	2013.9	83	1575
+A14	14	29		kidney	NAT				NAT				1584
+A15	15	66		kidney	clear cell carcinoma	T2aN0M0	G2	_	Malignant	survival	2013.9	83	1593
+A16	16	66		kidney	NAT				NAT				1602
+A17	17	71		kidney	clear cell carcinoma	T2aN0M0	G2	_	Malignant	survival	2013.9	83	1611
+A18	18	71		kidney	NAT				NAT				1620
+B1	19	62		kidney	clear cell carcinoma	T1b——M0	G1	——	Malignant	survival	2013.9	82	1458
+B2	20	62		kidney	NAT				NAT				1449
+B3	21	42		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	survival	2012.9		1440
+B4	22	42		kidney	NAT				NAT				1431
+B5	23	65		kidney	clear cell carcinoma	——N0M0	G1	——	Malignant	survival	2012.9		1422
+B6	24	65		kidney	NAT				NAT				1413
+B7	25	50		kidney	clear cell carcinoma	T1bN0M0	G1-G2	_	Malignant	survival	2012.9		1404
+B8	26	50		kidney	NAT				NAT				1395
+B9	27	62		kidney	clear cell carcinoma	T1bN0M0	G1-G2	_	Malignant	survival	2012.9		1386
+B10	28	62		kidney	NAT				NAT				1377
+B11	29	79		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	deceased	7/15/2009	32	1368
+B12	30	79		kidney	NAT				NAT				1359
+B13	31	73		kidney	clear cell carcinoma	T2aN0M0	G2-G3	_	Malignant	deceased	6/27/2012	67	1350
+B14	32	73		kidney	NAT				NAT				1341
+B15	33	44		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	82	1332
+B16	34	44		kidney	NAT				NAT				1323
+B17	35	52		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	82	1314
+B18	36	52		kidney	NAT				NAT				1305
+C1	37	73		kidney	clear cell carcinoma	T1aN0M0	G1-G2	_	Malignant	survival	2013.9	82	1143
+C2	38	73		kidney	NAT				NAT				1152
+C3	39	73		kidney	clear cell carcinoma	T1aN0M0	G1-G2	_	Malignant	survival	2013.9	82	1161
+C4	40	73		kidney	NAT				NAT				1170
+C5	41	44		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	survival	2013.9	82	1179
+C6	42	44		kidney	NAT				NAT				1188
+C7	43	52		kidney	clear cell carcinoma	——N0M0	G1-G2	——	Malignant	survival	2012.9		1197
+C8	44	52		kidney	NAT				NAT				1206
+C9	45	57		kidney	clear cell carcinoma	T2aN0M0	G2	_	Malignant	deceased	5/17/2010	41	1215
+C10	46	57		kidney	NAT				NAT				1224
+C11	47	78		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	deceased	1/5/2012	61	1233
+C12	48	78		kidney	NAT				NAT				1242
+C13	49	55		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	deceased	2/3/2007	2	1251
+C14	50	55		kidney	NAT				NAT				1260
+C15	51	49		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	81	1269
+C16	52	49		kidney	NAT				NAT				1278
+C17	53	61		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	80	1287
+C18	54	61		kidney	NAT				NAT				1296
+D1	55	67		kidney	clear cell carcinoma	T1aN1M0	G2-G3	_	Malignant	deceased	9/3/2007	8	1134
+D2	56	68		kidney	NAT				NAT				1125
+D3	57	52		kidney	clear cell carcinoma	T2aN0M0	G2	_	Malignant	survival	2013.9	80	1116
+D4	58	53		kidney	NAT				NAT				1107
+D5	59	62		kidney	clear cell carcinoma	T2bN0M0	G2-G3	_	Malignant	deceased	1/11/2013	72	1098
+D6	60	63		kidney	NAT				NAT				1089
+D7	61	44		kidney	clear cell carcinoma	T2aN0M0	G1-G2	_	Malignant	survival	2013.9	80	1080
+D8	62	45		kidney	NAT				NAT				1071
+D9	63	57		kidney	clear cell carcinoma	——N0M0	G2-G3	——	Malignant	survival	2013.9	80	1062
+D10	64	58		kidney	NAT				NAT				1053
+D11	65	74		kidney	clear cell carcinoma	T3N0M0	G3	_	Malignant	deceased	10/19/2007	8	1044
+D12	66	75		kidney	NAT				NAT				1035
+D13	67	65		kidney	clear cell carcinoma	T1bN0M0	G1-G2	_	Malignant	deceased	12/11/2009	34	1026
+D14	68	66		kidney	NAT				NAT				1017
+D15	69	60		kidney	clear cell carcinoma	T1b——M0	G3	——	Malignant	survival	2013.9	78	1008
+D16	70	61		kidney	NAT				NAT				999
+D17	71	57		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	78	990
+D18	72	58		kidney	NAT				NAT				981
+E1	73	48		kidney	clear cell carcinoma	T1aN0M0	G2	_	Malignant	survival	2013.9	78	819
+E2	74	49		kidney	NAT				NAT				828
+E3	75	72		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	78	837
+E4	76	73		kidney	NAT				NAT				846
+E5	77	42		kidney	clear cell carcinoma	——N0M0	G2	——	Malignant	deceased	2/24/2010	35	855
+E6	78	43		kidney	NAT				NAT				864
+E7	79	78		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	77	873
+E8	80	78		kidney	NAT				NAT				882
+E9	81	44		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	77	891
+E10	82	45		kidney	NAT				NAT				900
+E11	83	60		kidney	clear cell carcinoma	T1aN0M0	G1-G2	_	Malignant	survival	2013.9	77	909
+E12	84	60		kidney	NAT				NAT				918
+E13	85	37		kidney	clear cell carcinoma	T2aN0M0	G3	_	Malignant	deceased	7/31/2012	63	927
+E14	86	37		kidney	NAT				NAT				936
+E15	87	50		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	77	945
+E16	88	50		kidney	NAT				NAT				954
+E17	89	57		kidney	clear cell carcinoma	T3N0M0	G3	_	Malignant	deceased	8/31/2007	3	963
+E18	90	57		kidney	NAT				NAT				972
+F1	91	67		kidney	clear cell carcinoma	T1aN0M0	G2	_	Malignant	deceased	2/26/2011	45	810
+F2	92	68		kidney	NAT				NAT				801
+F3	93	57		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	76	792
+F4	94	58		kidney	NAT				NAT				783
+F5	95	65		kidney	clear cell carcinoma	T1bN0M0	G1-G2	_	Malignant	survival	2013.9	76	774
+F6	96	66		kidney	NAT				NAT				765
+F7	97	71		kidney	clear cell carcinoma	T2aN0M0	G2	_	Malignant	deceased	5/12/2011	48	756
+F8	98	71		kidney	NAT				NAT				747
+F9	99	39		kidney	clear cell carcinoma	T1aN0M0	G2	_	Malignant	survival	2013.9	76	738
+F10	100	39		kidney	NAT				NAT				729
+F11	101	72		kidney	clear cell carcinoma	T2aN0M0	G1-G2	_	Malignant	deceased	6/12/2012	61	720
+F12	102	73		kidney	NAT				NAT				711
+F13	103	54		kidney	clear cell carcinoma	T3N0M1	G3	_	Malignant	deceased	1/9/2008	8	702
+F14	104	54		kidney	NAT				NAT				693
+F15	105	55		kidney	clear cell carcinoma	T2aN0M0	G2	_	Malignant	survival	2013.9	76	684
+F16	106	55		kidney	NAT				NAT				675
+F17	107	57		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	deceased	6/14/2011	49	666
+F18	108	58		kidney	NAT				NAT				657
+G1	109	48		kidney	clear cell carcinoma	T3N0M0	G1	_	Malignant	survival	2013.9	75	495
+G2	110	49		kidney	NAT				NAT				504
+G3	111	70		kidney	clear cell carcinoma	T1aN0M0	G3	_	Malignant	deceased	6/8/2010	36	513
+G4	112	70		kidney	NAT				NAT				522
+G5	113	48		kidney	clear cell carcinoma	T1bN0M0	G3-_	_	Malignant	survival	2013.9	75	531
+G6	114	48		kidney	NAT				NAT				540
+G7	115	70		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	75	549
+G8	116	70		kidney	NAT				NAT				558
+G9	117	77		kidney	clear cell carcinoma	T1bN0M0	G1-G2	_	Malignant	deceased	5/26/2012	59	567
+G10	118	77		kidney	NAT				NAT				576
+G11	119	37		kidney	clear cell carcinoma	T1aN0M0	G1-G2	_	Malignant	survival	2013.9	75	585
+G12	120	37		kidney	NAT				NAT				594
+G13	121	75		kidney	clear cell carcinoma	T1aN0M0	G2	_	Malignant	survival	2013.9	75	603
+G14	122	75		kidney	NAT				NAT				612
+G15	123	51		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	survival	2013.9	75	621
+G16	124	52		kidney	NAT				NAT				630
+G17	125	82		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	deceased	9/13/2012	62	639
+G18	126	83		kidney	NAT				NAT				648
+H1	127	64		kidney	clear cell carcinoma	T1aN0M0	G1-G2	_	Malignant	survival	2013.9	74	486
+H2	128	65		kidney	NAT				NAT				477
+H3	129	66		kidney	clear cell carcinoma	T3N0M1	G2	_	Malignant	deceased	3/3/2010	32	468
+H4	130	66		kidney	NAT				NAT				459
+H5	131	55		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	74	450
+H6	132	56		kidney	NAT				NAT				441
+H7	133	55		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	survival	2013.9	74	432
+H8	134	56		kidney	NAT				NAT				423
+H9	135	61		kidney	clear cell carcinoma	T2aN0M0	G3	_	Malignant	deceased	1/4/2013	66	414
+H10	136	62		kidney	NAT				NAT				405
+H11	137	54		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	74	396
+H12	138	54		kidney	NAT				NAT				387
+H13	139	59		kidney	clear cell carcinoma	T2aN0M0	G3	_	Malignant	deceased	3/20/2009	18	378
+H14	140	59		kidney	NAT				NAT				369
+H15	141	66		kidney	clear cell carcinoma	T1aN0M0	G2	_	Malignant	survival	2013.9	72	360
+H16	142	67		kidney	NAT				NAT				351
+H17	143	73		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	72	342
+H18	144	74		kidney	NAT				NAT				333
+I1	145	43		kidney	clear cell carcinoma	T2bN0M0	G3	_	Malignant	deceased	9/9/2011	47	171
+I2	146	44		kidney	NAT				NAT				180
+I3	147	79		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	deceased	5/22/2011	43	189
+I4	148	79		kidney	NAT				NAT				198
+I5	149	71		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	71	207
+I6	150	71		kidney	NAT				NAT				216
+I7	151	54		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	survival	2013.9	70	225
+I8	152	55		kidney	NAT				NAT				234
+I9	153	46		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	70	243
+I10	154	47		kidney	NAT				NAT				252
+I11	155	55		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	69	261
+I12	156	55		kidney	NAT				NAT				270
+I13	157	61		kidney	clear cell carcinoma	T1aN0M0	G2	_	Malignant	survival	2013.9	69	279
+I14	158	61		kidney	NAT				NAT				288
+I15	159	51		kidney	clear cell carcinoma	T1aN0M0	G2	_	Malignant	survival	2013.9	69	297
+I16	160	52		kidney	NAT				NAT				306
+I17	161	70		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	69	315
+I18	162	70		kidney	NAT				NAT				324
+J1	163	55		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	69	162
+J2	164	56		kidney	NAT				NAT				153
+J3	165	60		kidney	clear cell carcinoma	T2bN0M0	G2	_	Malignant	deceased	9/11/2011	45	144
+J4	166	60		kidney	NAT				NAT				135
+J5	167	64		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	69	126
+J6	168	65		kidney	NAT				NAT				117
+J7	169	57		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	survival	2013.9	69	108
+J8	170	58		kidney	NAT				NAT				99
+J9	171	55		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	69	90
+J10	172	56		kidney	NAT				NAT				81
+J11	173	64		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	survival	2013.9	69	72
+J12	174	65		kidney	NAT				NAT				63
+J13	175	59		kidney	clear cell carcinoma	T1bN0M0	G1	_	Malignant	survival	2013.9	68	54
+J14	176	59		kidney	NAT				NAT				45
+J15	177	70		kidney	clear cell carcinoma	T1aN0M0	G1	_	Malignant	survival	2013.9	67	36
+J16	178	70		kidney	NAT				NAT				27
+J17	179	64		kidney	clear cell carcinoma	T1bN0M0	G2	_	Malignant	deceased	8/3/2010	30	18
+J18	180	64		kidney	NAT								9

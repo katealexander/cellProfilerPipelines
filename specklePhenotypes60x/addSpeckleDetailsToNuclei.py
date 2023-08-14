@@ -9,6 +9,11 @@ def main(args):
     
     wellName = args[1]
     
+    ## cutoffs for speckle sizes; adjust based on calculated speckle size distributions
+    small = 33
+    medium = 174
+    large = 441
+    
     ## file locations and names
     resultsLocation = "/Users/kaalexa/Documents/cellProfilerPipelines/specklePhenotypes60x/"
     nucleiFileName = resultsLocation + wellName + "/" + "nuclei.txt"
@@ -77,14 +82,14 @@ def main(args):
                     nArea = float(ndict[nucleus][2].split("\t")[nAreaIndex])
                     nSpeckles = len(ndict[nucleus][3])
                     totalSpeckleArea = sum(ndict[nucleus][3])
-                    nSspeckles = len([i for i in ndict[nucleus][3] if i <= 100])
-                    nMspeckles = len([i for i in ndict[nucleus][3] if 101 < i <= 200])
-                    nLspeckles = len([i for i in ndict[nucleus][3] if 201 < i <= 300])
-                    nXLspeckles = len([i for i in ndict[nucleus][3] if i > 300])
-                    aSspeckles = sum([i for i in ndict[nucleus][3] if i <= 100])
-                    aMspeckles = sum([i for i in ndict[nucleus][3] if 101 < i <= 200])
-                    aLspeckles = sum([i for i in ndict[nucleus][3] if 201 < i <= 300])
-                    aXLspeckles = sum([i for i in ndict[nucleus][3] if i > 300])
+                    nSspeckles = len([i for i in ndict[nucleus][3] if i <= small])
+                    nMspeckles = len([i for i in ndict[nucleus][3] if small < i <= medium])
+                    nLspeckles = len([i for i in ndict[nucleus][3] if medium < i <= large])
+                    nXLspeckles = len([i for i in ndict[nucleus][3] if i > large])
+                    aSspeckles = sum([i for i in ndict[nucleus][3] if i <= small])
+                    aMspeckles = sum([i for i in ndict[nucleus][3] if small < i <= medium])
+                    aLspeckles = sum([i for i in ndict[nucleus][3] if medium < i <= large])
+                    aXLspeckles = sum([i for i in ndict[nucleus][3] if i > large])
                     sizeLargest = max(ndict[nucleus][3])
                     medPerNuc = float(aMspeckles)/nArea
                     lPerNuc = float(aLspeckles)/nArea

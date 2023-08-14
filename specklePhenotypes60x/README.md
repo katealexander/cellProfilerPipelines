@@ -5,6 +5,8 @@ This pipeline describes how I assessed speckle phenotypes in 60x imaging data wi
 The cellProfiler projects "speckleAnalysisOneChannel_1.0" segment nuclei and speckles of the respective max projections and output image files showing how nuclei and speckles were called. Here nuclei are in the "DAPI" channel and speckles are in the "YFP" channel. The image files will output into the default cellProfiler folder, and will need to be moved to their respective folders. 
 
 # Post processing
+To set size bins for following script, I first extracted the speckle size distribution of the control population. The code to accomplish this is in the Rscript, "getSpeckleSizeDistribution.R"
+
 I used Python 2.7 to calculate per-nucleus speckle measurments. This included setting speckle size bins and assessing the area/nucleus of different speckle sizes.
 
 ```for dir in *_*; do python addSpeckleDetailsToNuclei.py $dir > $dir/$dir"_nuclei_withAddedSpeckleInfo.txt"; done```

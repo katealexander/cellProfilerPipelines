@@ -1,7 +1,3 @@
-
-## Joins files from HTSeq2 to make a table for DESeq
-## Need to enter HTSeq output file into tableList
-
 import re, sys
 def main(args):
     if len(args) < 2: sys.exit("USAGE: python mergeIntensityFiles.py exampleMaxProjections/result/*/*intensityMeasurementsnuclei.txt > intensityAllSamples [each intensity file is in it's separate well folder]")
